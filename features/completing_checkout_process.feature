@@ -21,8 +21,8 @@ Feature: Completing the checkout process
       | Puppy name | Breed                                | Gender |
       | Brook      | Golden Retriever                     | Female |
       | Hanna      | Labrador Retriever Mix               | Female |
-      | Maggie     | Mae Border Colie Mix                 | Female |
-      | Ruby       | Sue Pit Bull Terrier                 | Female |
+      | Maggie Mae | Border Colie Mix                     | Female |
+      | Ruby Sue   | Pit Bull Terrier                     | Female |
       | Sparky     | Austrailian Cattle Dog (Blue Heeler) | Male   |
       | Spud       | Beagle/Hound Mix                     | Male   |
       | Tipsy      | Terrier Mix                          | Female |
