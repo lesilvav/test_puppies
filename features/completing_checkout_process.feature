@@ -6,14 +6,6 @@ Feature: Completing the checkout process
   Background:
     Given I am on the puppy adoption site
 
-#  Scenario: Name is required when checking out
-#    When I attempt to checkout for puppy "Hanna", without a "name"
-#    Then I should see the error message "Name can't be blank"
-##
-#  Scenario: Address is required when checking out
-#    When I attempt to checkout for puppy "Hanna", without an "address"
-#    Then I should see the error message "Address can't be blank"
-
   Scenario Outline: Fields validation on check out
     When I attempt to checkout for puppy "<puppy_name>", without a "<field>"
     Then I should see the error message "<field> can't be blank"
@@ -22,14 +14,17 @@ Feature: Completing the checkout process
       | Brook      | Name    |
       | Hanna      | Address |
 
-#  Scenario: Adopter should be presented with payment options
-#    When I navigate to the checkout page
-#    Then I should see the following payment options:
-#      | pay_type       |
-#      | Purchase order |
-#      | Credit card    |
-#      | Check          |
-#
-#  Scenario: Thank you message should be displayed when adoption is complete
-#    When I complete the adoption of a puppy
-#    Then I should see the text "Thank you for adopting a puppy"
+
+  Scenario: Validate list of available puppies
+    When I navigate through the list of puppies
+    Then the list of available puppies should be the following:
+      | Puppy name | Breed                                | Gender |
+      | Brook      | Golden Retriever                     | Female |
+      | Hanna      | Labrador Retriever Mix               | Female |
+      | Maggie     | Mae Border Colie Mix                 | Female |
+      | Ruby       | Sue Pit Bull Terrier                 | Female |
+      | Sparky     | Austrailian Cattle Dog (Blue Heeler) | Male   |
+      | Spud       | Beagle/Hound Mix                     | Male   |
+      | Tipsy      | Terrier Mix                          | Female |
+      | Topsy      | Terrier Mix                          | Female |
+      | Twinkie    | Boxer/Rat Terrier Mix                | Female |

@@ -7,7 +7,7 @@ class CheckoutPage
   select_list(:pay_type, :id => 'order_pay_type')
   button(:place_order, :name => 'commit')
 
-  DEFAULT_DATA = {
+  DEFAULT_DATA ||= {
       'name' => 'Joe',
       'address' => 'My Address',
       'email' => 'belatrix@mail.com',

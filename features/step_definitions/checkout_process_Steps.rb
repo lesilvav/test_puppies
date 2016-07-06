@@ -3,11 +3,11 @@ When(/^I navigate to the checkout page$/) do
 end
 
 Given(/^I am on the puppy adoption site$/) do
-  visit(DetailsPage)
+  visit(HomePage)
 end
 
 When(/^I attempt to checkout for puppy "([^"]*)", without (?:a|an) "([^"]*)"$/) do |puppy_name, field|
-  on(DetailsPage).view_details(puppy_name)
+  on(HomePage).view_details(puppy_name)
   on(PuppyDetailsPage).loaded?(puppy_name).should be true
   on(PuppyDetailsPage).open_adoption_page
   on(PuppyItemsPage).loaded?
