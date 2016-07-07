@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a8d09bb-2851-419c-a092-0102b98514f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/matchers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test_puppies.iml" afterPath="$PROJECT_DIR$/.idea/test_puppies.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/completing_checkout_process.feature" afterPath="$PROJECT_DIR$/features/completing_checkout_process.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/checkout_process_Steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/checkout_process_Steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/puppy_list_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/puppy_list_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/matchers.rb" afterPath="$PROJECT_DIR$/features/support/matchers.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/home_page.rb" afterPath="$PROJECT_DIR$/features/support/pages/home_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/puppy_list_item_section.rb" afterPath="$PROJECT_DIR$/features/support/pages/puppy_list_item_section.rb" />
     </list>
@@ -24,6 +24,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/test_puppies@my_first_feature_feature.coverage" NAME="my_first_feature.feature Coverage Results" MODIFIED="1461282295700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
     <SUITE FILE_PATH="coverage/test_puppies@completing_checkout_process_feature.coverage" NAME="completing_checkout_process.feature Coverage Results" MODIFIED="1462319826229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
+    <SUITE FILE_PATH="coverage/test_puppies@Scenario__Validate_list_of_available_puppies__1_.coverage" NAME="Scenario: Validate list of available puppies (1) Coverage Results" MODIFIED="1467847891207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
     <SUITE FILE_PATH="coverage/test_puppies@Scenario__Address_is_required_when_checking_out.coverage" NAME="Scenario: Address is required when checking out Coverage Results" MODIFIED="1462319543668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
     <SUITE FILE_PATH="coverage/test_puppies@Scenario__Name_is_required_when_checking_out.coverage" NAME="Scenario: Name is required when checking out Coverage Results" MODIFIED="1462319388443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
     <SUITE FILE_PATH="coverage/test_puppies@Scenario__Validate_list_of_available_puppies.coverage" NAME="Scenario: Validate list of available puppies Coverage Results" MODIFIED="1467834390797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
@@ -36,12 +37,62 @@
     <favorites_list name="test_puppies" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file leaf-file-name="puppy_items_page.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/pages/puppy_items_page.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="puppy_list_steps.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/puppy_list_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matchers.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/matchers.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home_page.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/pages/home_page.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="completing_checkout_process.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/completing_checkout_process.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+            <state relative-caret-position="375">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="puppy_list_item_section.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/pages/puppy_list_item_section.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -75,11 +126,12 @@
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/checkout_page.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/checkout_process_Steps.rb" />
+        <option value="$PROJECT_DIR$/features/support/pages/home_page.rb" />
+        <option value="$PROJECT_DIR$/features/support/pages/puppy_list_item_section.rb" />
         <option value="$PROJECT_DIR$/features/support/matchers.rb" />
         <option value="$PROJECT_DIR$/features/completing_checkout_process.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/puppy_list_steps.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/puppy_list_item_section.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/home_page.rb" />
       </list>
     </option>
   </component>
@@ -129,88 +181,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_puppies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_puppies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_puppies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_puppies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_puppies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_puppies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_puppies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_puppies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_puppies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_puppies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step_definitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -225,43 +195,7 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Cucumber.Scenario: Validate list of available puppies">
-    <configuration default="false" name="my_first_feature.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="test_puppies" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/my_first_feature.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Cucumber.Scenario: Validate list of available puppies (1)">
     <configuration default="false" name="Scenario: Name is required when checking out" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="test_puppies" />
@@ -371,6 +305,42 @@
       <method />
     </configuration>
     <configuration default="false" name="Scenario: Validate list of available puppies" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="test_puppies" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/completing_checkout_process.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Validate list of available puppies$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: Validate list of available puppies (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="test_puppies" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -537,19 +507,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.my_first_feature.feature" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Name is required when checking out" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Address is required when checking out" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber.completing_checkout_process.feature" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Validate list of available puppies" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Name is required when checking out" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Address is required when checking out" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.completing_checkout_process.feature" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Validate list of available puppies" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Validate list of available puppies (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Validate list of available puppies" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.completing_checkout_process.feature" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Address is required when checking out" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Name is required when checking out" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.my_first_feature.feature" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Validate list of available puppies (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Validate list of available puppies" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.completing_checkout_process.feature" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Address is required when checking out" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Name is required when checking out" />
       </list>
     </recent_temporary>
   </component>
@@ -573,32 +543,11 @@
       <workItem from="1462313972779" duration="5964000" />
       <workItem from="1467823980265" duration="4011000" />
       <workItem from="1467830340404" duration="954000" />
-      <workItem from="1467831426075" duration="3874000" />
+      <workItem from="1467831426075" duration="9581000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Validate_list_of_available_puppies - 2016.07.06 at 14h 14m 24s.xml">
-      <configuration name="Scenario: Validate list of available puppies" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Validate_list_of_available_puppies - 2016.07.06 at 14h 17m 33s.xml">
-      <configuration name="Scenario: Validate list of available puppies" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Validate_list_of_available_puppies - 2016.07.06 at 14h 18m 45s.xml">
-      <configuration name="Scenario: Validate list of available puppies" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Validate_list_of_available_puppies - 2016.07.06 at 14h 18m 58s.xml">
-      <configuration name="Scenario: Validate list of available puppies" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Validate_list_of_available_puppies - 2016.07.06 at 14h 19m 44s.xml">
-      <configuration name="Scenario: Validate list of available puppies" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Validate_list_of_available_puppies - 2016.07.06 at 14h 20m 26s.xml">
-      <configuration name="Scenario: Validate list of available puppies" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Validate_list_of_available_puppies - 2016.07.06 at 14h 27m 36s.xml">
-      <configuration name="Scenario: Validate list of available puppies" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Validate_list_of_available_puppies - 2016.07.06 at 14h 28m 30s.xml">
       <configuration name="Scenario: Validate list of available puppies" configurationId="CucumberRunConfigurationType" />
     </history-entry>
@@ -608,9 +557,30 @@
     <history-entry file="Scenario__Validate_list_of_available_puppies - 2016.07.06 at 14h 46m 39s.xml">
       <configuration name="Scenario: Validate list of available puppies" configurationId="CucumberRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Validate_list_of_available_puppies_(1) - 2016.07.06 at 18h 16m 14s.xml">
+      <configuration name="Scenario: Validate list of available puppies (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Validate_list_of_available_puppies_(1) - 2016.07.06 at 18h 18m 24s.xml">
+      <configuration name="Scenario: Validate list of available puppies (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Validate_list_of_available_puppies_(1) - 2016.07.06 at 18h 18m 37s.xml">
+      <configuration name="Scenario: Validate list of available puppies (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Validate_list_of_available_puppies_(1) - 2016.07.06 at 18h 20m 27s.xml">
+      <configuration name="Scenario: Validate list of available puppies (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Validate_list_of_available_puppies_(1) - 2016.07.06 at 18h 21m 43s.xml">
+      <configuration name="Scenario: Validate list of available puppies (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Validate_list_of_available_puppies_(1) - 2016.07.06 at 18h 31m 02s.xml">
+      <configuration name="Scenario: Validate list of available puppies (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Validate_list_of_available_puppies_(1) - 2016.07.06 at 18h 31m 40s.xml">
+      <configuration name="Scenario: Validate list of available puppies (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28103000" />
+    <option name="totallyTimeSpent" value="33810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1024" height="745" extended-state="6" />
@@ -621,11 +591,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5774278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5482912" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40419948" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7467192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46508172" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -648,11 +618,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CucumberRunConfigurationType">
-        <watch expression="expected_puppy_list" language="ruby" />
         <watch expression="expected_puppy_list.hashes" language="ruby" />
       </configuration>
     </watches-manager>
@@ -941,14 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/checkout_process_Steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/home_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -989,14 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/matchers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/checkout_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1013,14 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/puppy_items_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/shopping_cart_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1029,10 +974,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/home_page.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/checkout_process_Steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="555">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/puppy_items_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/matchers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/puppy_list_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1040,23 +1009,23 @@
     <entry file="file://$PROJECT_DIR$/features/support/pages/puppy_list_item_section.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/puppy_list_steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/pages/home_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-30">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/completing_checkout_process.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        <state relative-caret-position="375">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding />
         </state>
       </provider>

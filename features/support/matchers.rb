@@ -1,4 +1,4 @@
-RSpec::Matchers.define :have_the_same_items_as do |expected|
+RSpec::Matchers.define :have_the_same_puppies_as do |expected|
   match do |actual|
     (actual - expected).empty? and (expected - actual).empty?
   end

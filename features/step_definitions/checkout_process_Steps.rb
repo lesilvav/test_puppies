@@ -35,4 +35,3 @@ end
 When(/^I complete the adoption of a puppy$/) do
   pending
 end
-

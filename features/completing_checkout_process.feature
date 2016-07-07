@@ -27,4 +27,4 @@ Feature: Completing the checkout process
       | Spud       | Beagle/Hound Mix                     | Male   |
       | Tipsy      | Terrier Mix                          | Female |
       | Topsy      | Terrier Mix                          | Female |
-      | Twinkie    | Boxer/Rat Terrier Mix                | Female |
+      | Twinkie    | Boxer/Rat Terrier Mix                | Male   |
