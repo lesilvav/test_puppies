@@ -42,4 +42,17 @@ class HomePage
   end
 
 
+  def select_puppy(name)
+    loop do
+      puppies.each do |puppy|
+        if puppy.name == name
+          puppy.view_details
+          return true
+        end
+      end
+      is_next_link_enabled? ? next_page_link : fail("Puppy with name \"#{name}\" was not found in the DOM")
+    end
+  end
+
+
 end

@@ -13,7 +13,7 @@ class PuppyDetailsPage
 
   end
 
-  def open_adoption_page
+  def add_to_cart
     adopt_me
   end
 

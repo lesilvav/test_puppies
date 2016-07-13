@@ -1,7 +1,3 @@
-When(/^I navigate to the checkout page$/) do
-  pending
-end
-
 Given(/^I am on the puppy adoption site$/) do
   visit(HomePage)
 end
@@ -27,11 +23,14 @@ Then(/^I should see the error message "([^"]*)"$/) do |error_message|
 end
 
 
-Then(/^I should see the following payment options:$/) do |table|
-  # table is a table.hashes.keys # => [:pay_type]
-  pending
+When(/^I complete the adoption of puppy "([^"]*)"$/) do |puppy_name|
+  on(HomePage).select_puppy(puppy_name)
+  on(PuppyDetailsPage).add_to_cart
+  on(ShoppingCartPage).proceed_to_checkout
+  on(CheckoutPage).checkout
+
 end
 
-When(/^I complete the adoption of a puppy$/) do
-  pending
+Then(/^I should see "([^"]*)"$/) do |thanks_message|
+  @browser.text.include?(thanks_message).should be true
 end

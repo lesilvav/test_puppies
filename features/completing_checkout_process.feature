@@ -28,3 +28,17 @@ Feature: Completing the checkout process
       | Tipsy      | Terrier Mix                          | Female |
       | Topsy      | Terrier Mix                          | Female |
       | Twinkie    | Boxer/Rat Terrier Mix                | Male   |
+
+
+  Scenario: Adopting a puppy
+    When I click the View Details button for 'Brook'
+    And I click the Adopt Me button
+    And I click the Complete the Adoption button
+    And I complete the adoption with:
+      | name  | address        | email                   | pay_type |
+      | Yosit | Yosit' address | ysanchez@belatrixsf.com | Check    |
+    Then I should see "Thank you for adopting a puppy"
+
+  Scenario: A thank you message should be displayed when I adopt a puppy
+    When I complete the adoption of puppy "Twinkie"
+    Then I should see "Thank you for adopting a puppy"

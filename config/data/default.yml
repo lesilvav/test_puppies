@@ -1,0 +1,12 @@
+checkout_page:
+  name: Yosit
+  address: Yosit's address
+  email: ysanchez@belatrixsf.com
+  pay_type: Check
+
+checkout_page_1:
+  name: Yosit
+  address: Yosit's address
+  email: ysanchez@belatrixsf.com
+  pay_type: Check
+
