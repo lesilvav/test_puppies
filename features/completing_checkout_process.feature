@@ -17,18 +17,7 @@ Feature: Completing the checkout process
 
   Scenario: Validate list of available puppies
     When I navigate through the list of puppies
-    Then the list of available puppies should be the following:
-      | Puppy name | Breed                                | Gender |
-      | Brook      | Golden Retriever                     | Female |
-      | Hanna      | Labrador Retriever Mix               | Female |
-      | Maggie Mae | Border Colie Mix                     | Female |
-      | Ruby Sue   | Pit Bull Terrier                     | Female |
-      | Sparky     | Austrailian Cattle Dog (Blue Heeler) | Male   |
-      | Spud       | Beagle/Hound Mix                     | Male   |
-      | Tipsy      | Terrier Mix                          | Female |
-      | Topsy      | Terrier Mix                          | Female |
-      | Twinkie    | Boxer/Rat Terrier Mix                | Male   |
-
+    Then the list of available puppies should be listed
 
   Scenario: Adopting a puppy
     When I click the View Details button for 'Brook'
