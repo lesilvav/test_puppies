@@ -6,7 +6,7 @@ class HomePage
   span(:next_page_link_disabled, :class => 'next_page disabled')
   page_sections(:puppies, PuppyListItemSection, :xpath => PuppyListItemSection::XPATH)
 
-  page_url "http://puppies.herokuapp.com"
+  page_url "http://localhost:3000"
 
   def view_details(puppy_name = nil)
     case puppy_name

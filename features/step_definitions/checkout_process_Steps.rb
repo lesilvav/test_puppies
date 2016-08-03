@@ -24,6 +24,7 @@ end
 
 
 When(/^I complete the adoption of puppy "([^"]*)"$/) do |puppy_name|
+
   on(HomePage).select_puppy(puppy_name)
   on(PuppyDetailsPage).add_to_cart
   on(ShoppingCartPage).proceed_to_checkout
